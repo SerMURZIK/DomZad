@@ -3,5 +3,7 @@ public class Main {
         int[] sales = {1, 5, 3};
         SalesManager salesManager = new SalesManager(sales);
         System.out.println(salesManager.max());
+
+        System.out.println(salesManager.trimmedAvg());
     }
 }
